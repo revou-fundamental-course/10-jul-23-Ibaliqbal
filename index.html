@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kalkulator BMI</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">Kalkulator BMI</h1>
+      <div id="jk">
+        <label for="Jenis Kelamin">Jenis Kelamin</label>
+        <div>
+          <input type="radio" name="jenisKelamin" value="Laki-Laki" />Laki-Laki
+          <input type="radio" name="jenisKelamin" value="Perempuan" />Perempuan
+        </div>
+      </div>
+      <div class="con">
+        <label for="Berat Badan">Berat Badan(kg)</label>
+        <input
+          type="text"
+          id="beratbadan"
+          placeholder="Masukkan Berat Badan Anda"
+        />
+      </div>
+      <div class="con">
+        <label for="Tinggi Badan">Tinggi Badan(m)</label>
+        <input
+          type="text"
+          id="tinggibadan"
+          placeholder="Masukkan Tinggi Badan Anda"
+        />
+      </div>
+      <div class="btn">
+        <button id="hitung">Hitung BMI</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </section>
+    <section class="hasilhitung" id="hasilHitung"></section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
